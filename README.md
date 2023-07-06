@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora a modificar repositórios.
 
-<a href="https://joaopedrobouhid.github.io./html-css-curso-em-video/exercicios/ex001">Executar o ex001</a>
+<a href="https://joaopedrobouhid.github.io./html-css-curso-em-video/exercicios/ex001/index">Executar o ex001</a>

@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+            border: 1px dashed black;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de iframe.</h1>
+    <!--O tamanho padrão do iframe é 300x150 -->
     <p>
         Acessandoo site do
-        <iframe src="https://cursoemvideo.com" frameborder="0"></iframe>
+        <iframe src="https://cursoemvideo.com" frameborder="0" height="500">
+        <a href="https://cursoemvideo.com" target="_blank">Curso em Video</a>
+        <!-- Se o site não for compatível tudo que for escrito dentro do iframe irá aparecer para o usuário, tambem é possível colocar a frase {O seu navegador não é compatível.}, mas é melhor colocar o link.   -->
+
+        </iframe>
+        
         para aprender a programar.
     </p>
     <br>
@@ -19,6 +32,17 @@
         também é bem legal.
         <!-- Não funciona pq alguns sites possuem proteções que impedem o acesso de terceiros através do iframe. -->
         <!-- frameborder é a borda do iframe, se o valor for 0 não terá borda, se for 1 terá. -->
+    </p>
+
+    <p>
+        O repositório do Guanabara
+        
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+        no <a href="https://gustavoguanabara.github.io" target="_blank"></a>
+
+        </iframe>
+
+        também é bem legal
     </p>
 
     <p>
